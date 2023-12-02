@@ -61,3 +61,31 @@
 ```
 npm i @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
 ```
+
+
+### Adding auto import sort for esline
+
+1. install the plugin
+```
+npm i eslint-plugin-simple-import-sort
+```
+
+2. Add rule in `.eslintrc.cjs`
+```
+ 'simple-import-sort/imports':'error'
+```
+
+3. Add simple-import-sort in the plugin array of `.eslintrc.` fill
+
+```
+plugins: [...,'simple-import-sort]
+```
+
+4. Open settings.json in svcode configuration settings
+
+5. Add the following line
+```
+ "editor.codeActionsOnSave": {
+        "source.fixAll.eslint":true
+    }
+```
