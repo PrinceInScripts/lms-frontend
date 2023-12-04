@@ -77,7 +77,7 @@ function HomeLayout({ children }) {
               <li className="absolute bottom-4 w-[90%]">
                 <div className="w-full flex items-center gap-2 justify-center">
                   <button className="px-4 py-2 font-semibold rounded-md w-full bg-[#611EE0] text-white hover:shadow-md focus:outline-none focus:ring focus:ring-purple-400">
-                    <Link to="/login">Login</Link>
+                    <Link to="/signin">Login</Link>
                   </button>
 
                   <button className="px-4 py-2 font-semibold rounded-md w-full bg-pink-600 text-white hover:shadow-md focus:outline-none focus:ring focus:ring-pink-400">
